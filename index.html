@@ -1,0 +1,167 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta />
+		<title>JS BOMBERMAN!!!</title>
+
+		<style>
+			html,
+			body {
+				padding: 0;
+				margin: 0;
+				height: 100%;
+			}
+
+			body {
+				display: flex;
+			}
+
+			body,
+			canvas {
+				background-color: black;
+			}
+
+			canvas {
+				width: 100%;
+				object-fit: contain;
+				image-rendering: crisp-edges;
+				image-rendering: pixelated;
+			}
+
+			img,
+			audio {
+				display: none;
+			}
+			.game-menu{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background-color: white;
+				min-width: 450px;
+				height: 50%;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 150px;
+
+			}
+		</style>
+		<script type="importmap">
+			{
+				"imports": {
+					"engine/": "./src/engine/",
+					"game/": "./src/game/"
+				}
+			}
+		</script>
+		<script type="module" src="./src/index.js"></script>
+	</head>
+	<body>
+		<div class="game-menu">
+			<button id="startBtn">START</button>
+		</div>
+		<img id="bomberman" src="./images/bomberman.png" />
+		<img id="stage" src="./images/stage.png" />
+		<img id="font" src="./images/font.png" />
+		<img id="hud" src="./images/hud.png" />
+		<img id="power-ups" src="./images/powerups.png" />
+	</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta />
+		<title>JS BOMBERMAN!!!</title>
+
+		<style>
+			html,
+			body {
+				padding: 0;
+				margin: 0;
+				height: 100%;
+			}
+
+			body {
+				display: flex;
+			}
+
+			body,
+			canvas {
+				background-color: black;
+			}
+
+			canvas {
+				width: 100%;
+				object-fit: contain;
+				image-rendering: crisp-edges;
+				image-rendering: pixelated;
+			}
+
+			img,
+			audio {
+				display: none;
+			}
+			.game-menu {
+				display: flex;
+				flex-direction: column;
+				gap: 24px;
+				align-items: center;
+				justify-content: center;
+				/*background-color: white;*/
+				background-image: url("images/backgroundstart.jpg");
+				background-size: cover;
+				background-position: center;
+				/*min-width: 450px;*/
+				height: 90vh;
+				width: 80%;
+				margin: 0 auto;
+				border-radius: 10px;
+				padding: 20px;
+				/*margin-left: auto;
+				margin-right: auto;
+				margin-top: 150px;*/
+			}
+			.game-menu button {
+				display: block;
+				font-size: 24px; /* Adjust the font size */
+				padding: 20px 40px; /* Adjust the padding to increase button size */
+				cursor: pointer;
+				background-color: #ff9900;
+				border-radius: 5px;
+				color: white;
+				border: none;
+			}
+		</style>
+		<script type="importmap">
+			{
+				"imports": {
+					"engine/": "./src/engine/",
+					"game/": "./src/game/"
+				}
+			}
+		</script>
+		<script type="module" src="./src/index.js"></script>
+	</head>
+	<body>
+		<div class="game-menu">
+			<div class="game-menu">
+				<button id="startBtn">START</button>
+				<button id="continueBtn">CONTINUE</button>
+				<!-- Ensure this button is present -->
+				<button id="restartBtn" style="display: none">RESTART</button>
+				<button id="exitBtn">EXIT</button>
+			</div>
+		</div>
+		<img id="bomberman" src="./images/bomberman.png" />
+		<img id="stage" src="./images/stage.png" />
+		<img id="font" src="./images/font.png" />
+		<img id="hud" src="./images/hud.png" />
+		<img id="power-ups" src="./images/powerups.png" />
+	</body>
+</html>
+
