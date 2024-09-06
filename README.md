@@ -61,9 +61,10 @@ We welcome contributions to BombermanJS! Please fork the repository, make your c
 ## Authors and acknowledgment
 BombermanJS is developed by the following team members:
 
+Onyango Maurice (D4CEMH)
 Osama Al-Madanat (FH9S0R)
 Kasapolli Bardh (FA0PJE)
-Onyango Maurice (D4CEMH)
+
 We appreciate the contributions and support of the open-source community.
 
 ## License
