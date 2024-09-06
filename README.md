@@ -27,9 +27,10 @@ To play BombermanJS, open the game in a web browser after following the installa
 ## Support
 For help or assistance with BombermanJS, please submit an issue on the GitHub repository or contact one of the project team members:
 
+Onyango Maurice (D4CEMH)
 Osama Al-Madanat (FH9S0R)
 Kasapolli Bardh (FA0PJE)
-Onyango Maurice (D4CEMH)
+
 
 ## Shortcomings
 Absence of Monsters:
